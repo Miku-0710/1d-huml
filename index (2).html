@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+      <head>
+
+             <meta charset="UTF-8">
+             <title>アンケート</title>
+      </head>
+      <body>
+       　<h1>アンケート</h1>
+            <form method="POST" action ="table.html">
+       <p>お名前：<input type="text" name = "onamae"></p>
+       >性別：男<input type="radio" name = "seibetu" value ="man">女<input type="radio" name = "seibetu" value="woman"></p>
+       <p>好きな料理：和食<input type="radio" name ="meal" value= "和食">洋食<input type="radio" name ="eat" value= "洋食"></p>
+       <p>好きなスポーツをすべて選んでください。</p>
+       <p><input type="checkbox"  name="socceer" value="サッカー">サッカー</p>
+       <p><input type="checkbox"  name="base" value="野球">野球</p>
+       <p><input type="checkbox"  name="volly" value="バレー">バレー</p>
+       <p><input type="checkbox"  name="takyuu" value="卓球">卓球</p>
+       <p><input type="checkbox"  name="track" value="陸上">陸上</p>
+
+
+       <p>住んでいる都道府県</p>
+       <p>
+          <select name="pref">
+           <option value = "北海道">北海道</option>
+           <option value = "北海道">青森</option>
+           <option value = "北海道">秋田</option>
+           <option value = "北海道">岩手</option>
+           <option value = "北海道">新潟</option>
+           <option value = "北海道">福島</option>
+           <option value = "北海道">千葉</option>
+           <option value = "北海道">東京</option>
+           <option value = "北海道">沖縄</option>
+           <option value = "北海道">神奈川</option>
+           <option value = "北海道">茨城</option>
+           <option value = "北海道">埼玉</option>
+           <option value = "北海道">愛知</option>
+
+         </select>
+       </p>
+
+       <p>お問い合わせ</p>
+       <p><textarea name="qqq" maxlength="200"></textarea></p>
+
+       <p><input type=submit name="botton" value="送る" ></p>
+
+            </form> 
+      </body>
+  </html>
